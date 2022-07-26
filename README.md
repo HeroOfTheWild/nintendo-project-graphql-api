@@ -21,7 +21,7 @@ This is just a simple Spring GraphQL API that is part of a schema stitching exer
 Application will be exposed on port 8083. You can send your POST request against http://localhost:8083/nintendo/project/graphql.
 
 ## Playing with this API 
-Checkout the attached Postman Collection for more examples. Below is one for querying all project data based of criteria passed
+Checkout the attached Postman Collection for more examples. Below is one for querying all project data based off criteria passed
 
 ```graphql
 query lookUpByCriteria($teamId: NintendoTeamId!, $franchiseId: NintendoGuid!, $status: ProjectStatus!){
