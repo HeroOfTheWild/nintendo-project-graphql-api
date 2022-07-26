@@ -1,0 +1,38 @@
+{
+    "data": {
+        "franchises": {
+            "pageInfo": {
+                "hasPreviousPage": false,
+                "hasNextPage": true,
+                "page": 0,
+                "total": 11
+            },
+            "edges": [
+                {
+                    "cursor": "n1nt3nd0-11a8-4d5b-beda-franch1s3001",
+                    "node": {
+                        "franchiseId": "n1nt3nd0-11a8-4d5b-beda-franch1s3001",
+                        "creator": "Shigeru Miyamoto",
+                        "title": "Super Mario"
+                    }
+                },
+                {
+                    "cursor": "n1nt3nd0-11a8-4d5b-beda-franch1s3002",
+                    "node": {
+                        "franchiseId": "n1nt3nd0-11a8-4d5b-beda-franch1s3002",
+                        "creator": "Shigeru Miyamoto",
+                        "title": "The Legend of Zelda"
+                    }
+                },
+                {
+                    "cursor": "n1nt3nd0-11a8-4d5b-beda-franch1s3003",
+                    "node": {
+                        "franchiseId": "n1nt3nd0-11a8-4d5b-beda-franch1s3003",
+                        "creator": "Shigeru Miyamoto",
+                        "title": "Donkey Kong"
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,20 @@
+query projects {
+    projects(page: 0, rows: 4) {
+        edges {
+            node {
+                projectId
+                teamId
+                franchiseId
+                projectName
+                status
+                lastModified
+            }
+        }
+        pageInfo {
+            page
+            hasNextPage
+            hasPreviousPage
+            total
+        }
+    } 
+}

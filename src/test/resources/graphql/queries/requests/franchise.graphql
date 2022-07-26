@@ -1,0 +1,7 @@
+query {
+    franchise(franchiseId: "n1nt3nd0-11a8-4d5b-beda-franch1s3001") {
+        franchiseId
+        title
+        creator
+    }
+}

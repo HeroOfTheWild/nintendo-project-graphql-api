@@ -1,0 +1,60 @@
+type Project {
+    projectId: String!
+    teamId: String!
+    franchiseId: String!
+    projectName: String! 
+    status: ProjectStatus
+    lastModified: DateTime
+}
+
+type Franchise {
+    franchiseId: String!
+    title: String!
+    creator: String! 
+}
+
+enum ProjectStatus {
+    NEW
+    READY
+    INPROGRESS
+    BLOCKED
+    COMPLETED
+    TERMINATED
+    CANCELLED
+    RELEASED
+    REMASTER
+}
+
+type PageInfo {
+	# if page > 0
+	hasPreviousPage: Boolean!
+	
+	# edges.size() >= rows
+	hasNextPage: Boolean!
+	
+	# Page number 
+	page: Int!
+
+    # Total Number of Records
+    total: Int!
+}
+
+type ProjectConnection {
+	edges: [ProjectConnectionEdge]
+	pageInfo: PageInfo!
+}
+
+type ProjectConnectionEdge {
+	cursor: String
+	node: Project
+}
+
+type FranchiseConnection {
+	edges: [FranchiseConnectionEdge]
+	pageInfo: PageInfo!
+}
+
+type FranchiseConnectionEdge {
+	cursor: String
+	node: Franchise
+}

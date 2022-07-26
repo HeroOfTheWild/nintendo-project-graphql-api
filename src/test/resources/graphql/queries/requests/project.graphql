@@ -1,0 +1,10 @@
+query {
+    project(projectId: "n1nt3nd0-11a8-4d5b-beda-pr0j3ct20f02") {
+        projectId
+        franchiseId
+        projectName
+        teamId
+        status
+        lastModified
+    } 
+}

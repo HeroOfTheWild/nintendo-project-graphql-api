@@ -1,0 +1,18 @@
+query {
+    franchises(page:0, rows: 3) {
+        pageInfo {
+            hasPreviousPage
+            hasNextPage
+            page
+            total
+        }
+        edges {
+            cursor
+            node {
+                franchiseId
+                creator
+                title
+            }
+        }
+    }
+}

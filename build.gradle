@@ -1,0 +1,69 @@
+plugins {
+	id 'org.springframework.boot' version '2.7.0-M3'
+	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+	id 'java'
+	id 'jacoco'
+}
+
+group = 'com.kjam'
+version = '0.0.1-SNAPSHOT'
+
+java {
+	sourceCompatibility = JavaVersion.VERSION_17
+	targetCompatibility = JavaVersion.VERSION_17
+}
+
+configurations {
+	compileOnly {
+		extendsFrom annotationProcessor
+	}
+}
+
+repositories {
+	mavenCentral()
+	maven { url 'https://repo.spring.io/milestone' }
+	maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
+}
+
+ext {
+	setEnvironmentVariables = {
+		environment.put('RUNTIME_ENV', 'dev')
+		environment.put('TZ', 'America/Chicago')
+	}
+}
+
+dependencies {
+	// Spring Framework
+	implementation 'org.springframework.boot:spring-boot-starter'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.springframework.boot:spring-boot-starter-data-r2dbc'
+	developmentOnly 'org.springframework.boot:spring-boot-devtools'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+	// GraphQL Java Kickstart
+	implementation 'com.graphql-java-kickstart:graphql-spring-boot-starter:12.0.0'
+  	testImplementation 'com.graphql-java-kickstart:graphql-spring-boot-starter-test:12.0.0'
+
+	// Other Dependencies
+	implementation 'io.r2dbc:r2dbc-h2'
+	runtimeOnly 'com.h2database:h2'
+	testImplementation 'commons-io:commons-io:2.11.0'
+
+	// Lombok
+	compileOnly 'org.projectlombok:lombok'
+	annotationProcessor 'org.projectlombok:lombok'
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+}
+
+jacocoTestCoverageVerification {
+    violationRules {
+        rule {
+            limit {
+                minimum = 0.1
+            }
+        }
+    }
+}

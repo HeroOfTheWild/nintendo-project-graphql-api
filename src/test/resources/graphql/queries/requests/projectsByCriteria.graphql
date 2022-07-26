@@ -1,0 +1,10 @@
+query {
+    projectsByCriteria(teamId: "nintendo01") {
+        projectId
+        franchiseId
+        projectName
+        teamId
+        status
+        lastModified
+    }
+}

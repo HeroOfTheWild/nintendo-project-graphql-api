@@ -1,0 +1,54 @@
+{
+    "data": {
+        "projectsByCriteria": [
+            {
+                "projectId": "n1nt3nd0-11a8-4d5b-beda-pr0j3ct20f01",
+                "franchiseId": "n1nt3nd0-11a8-4d5b-beda-franch1s3001",
+                "projectName": "Odyssey",
+                "teamId": "nintendo01",
+                "status": "COMPLETED",
+                "lastModified": "1985-07-05T23:54:00-05:00"
+            },
+            {
+                "projectId": "n1nt3nd0-11a8-4d5b-beda-pr0j3ct20f02",
+                "franchiseId": "n1nt3nd0-11a8-4d5b-beda-franch1s3001",
+                "projectName": "3D World",
+                "teamId": "nintendo01",
+                "status": "COMPLETED",
+                "lastModified": "1985-07-05T23:54:00-05:00"
+            },
+            {
+                "projectId": "n1nt3nd0-11a8-4d5b-beda-pr0j3ct20f64",
+                "franchiseId": "n1nt3nd0-11a8-4d5b-beda-franch1s3001",
+                "projectName": "64 Remaster",
+                "teamId": "nintendo01",
+                "status": "INPROGRESS",
+                "lastModified": "1985-07-05T23:54:00-05:00"
+            },
+            {
+                "projectId": "n1nt3nd0-11a8-4d5b-beda-pr0j3ct20f71",
+                "franchiseId": "n1nt3nd0-11a8-4d5b-beda-franch1s3002",
+                "projectName": "Breath of the Wild",
+                "teamId": "nintendo01",
+                "status": "COMPLETED",
+                "lastModified": "1985-07-05T23:54:00-05:00"
+            },
+            {
+                "projectId": "n1nt3nd0-11a8-4d5b-beda-pr0j3ct20f72",
+                "franchiseId": "n1nt3nd0-11a8-4d5b-beda-franch1s3002",
+                "projectName": "Breath of the Wild 2",
+                "teamId": "nintendo01",
+                "status": "INPROGRESS",
+                "lastModified": "1985-07-05T23:54:00-05:00"
+            },
+            {
+                "projectId": "n1nt3nd0-11a8-4d5b-beda-pr0j3ct20f73",
+                "franchiseId": "n1nt3nd0-11a8-4d5b-beda-franch1s3002",
+                "projectName": "Wind Waker",
+                "teamId": "nintendo01",
+                "status": "RELEASED",
+                "lastModified": "1985-07-05T23:54:00-05:00"
+            }
+        ]
+    }
+}

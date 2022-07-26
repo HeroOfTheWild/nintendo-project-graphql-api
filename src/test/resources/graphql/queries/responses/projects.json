@@ -1,0 +1,54 @@
+{
+    "data": {
+        "projects": {
+            "edges": [
+                {
+                    "node": {
+                        "projectId": "n1nt3nd0-11a8-4d5b-beda-pr0j3ct20f01",
+                        "teamId": "nintendo01",
+                        "franchiseId": "n1nt3nd0-11a8-4d5b-beda-franch1s3001",
+                        "projectName": "Odyssey",
+                        "status": "COMPLETED",
+                        "lastModified": "1985-07-05T23:54:00-05:00"
+                    }
+                },
+                {
+                    "node": {
+                        "projectId": "n1nt3nd0-11a8-4d5b-beda-pr0j3ct20f02",
+                        "teamId": "nintendo01",
+                        "franchiseId": "n1nt3nd0-11a8-4d5b-beda-franch1s3001",
+                        "projectName": "3D World",
+                        "status": "COMPLETED",
+                        "lastModified": "1985-07-05T23:54:00-05:00"
+                    }
+                },
+                {
+                    "node": {
+                        "projectId": "n1nt3nd0-11a8-4d5b-beda-pr0j3ct20f64",
+                        "teamId": "nintendo01",
+                        "franchiseId": "n1nt3nd0-11a8-4d5b-beda-franch1s3001",
+                        "projectName": "64 Remaster",
+                        "status": "INPROGRESS",
+                        "lastModified": "1985-07-05T23:54:00-05:00"
+                    }
+                },
+                {
+                    "node": {
+                        "projectId": "n1nt3nd0-11a8-4d5b-beda-pr0j3ct20f71",
+                        "teamId": "nintendo01",
+                        "franchiseId": "n1nt3nd0-11a8-4d5b-beda-franch1s3002",
+                        "projectName": "Breath of the Wild",
+                        "status": "COMPLETED",
+                        "lastModified": "1985-07-05T23:54:00-05:00"
+                    }
+                }
+            ],
+            "pageInfo": {
+                "page": 0,
+                "hasNextPage": true,
+                "hasPreviousPage": false,
+                "total": 12
+            }
+        }
+    }
+}

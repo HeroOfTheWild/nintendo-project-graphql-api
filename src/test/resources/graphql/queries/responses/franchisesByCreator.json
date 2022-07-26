@@ -1,0 +1,30 @@
+{
+    "data": {
+        "franchises": {
+            "pageInfo": {
+                "hasPreviousPage": true,
+                "hasNextPage": false,
+                "page": 1,
+                "total": 5
+            },
+            "edges": [
+                {
+                    "cursor": "n1nt3nd0-11a8-4d5b-beda-franch1s3005",
+                    "node": {
+                        "franchiseId": "n1nt3nd0-11a8-4d5b-beda-franch1s3005",
+                        "creator": "Shigeru Miyamoto",
+                        "title": "Mario Kart"
+                    }
+                },
+                {
+                    "cursor": "n1nt3nd0-11a8-4d5b-beda-franch1s3006",
+                    "node": {
+                        "franchiseId": "n1nt3nd0-11a8-4d5b-beda-franch1s3006",
+                        "creator": "Shigeru Miyamoto",
+                        "title": "Mario Party"
+                    }
+                }
+            ]
+        }
+    }
+}

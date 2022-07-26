@@ -1,0 +1,23 @@
+scalar NintendoGuid
+scalar NintendoTeamId
+scalar DateTime
+
+type Query {
+
+    # Retrieves a Franchise associated to the Franchise Id
+    franchise(franchiseId: NintendoGuid!): Franchise
+
+    # Retrieve a Collection of Nintendo Owned Franchises FranchiseConnection
+    # franchises(page: Int!, rows: Int!, creatorName: String): franchisesConnection @connection (for: "Franchise")
+    franchises(page: Int!, rows: Int!, creatorName: String): FranchiseConnection
+
+    # Retrieves a Project by its ID. 
+    project(projectId: NintendoGuid!): Project
+
+    # # Retrieve a Collection of projects associated to a Team ID that you can paginate through
+    # projects(page: Int!, rows: Int!): projectConnection @connection (for: "Project")
+    projects(page: Int!, rows: Int!): ProjectConnection
+
+    # Retrieve a List of Projects based of the criteria provided. If no criteria is provide, null will be returned.
+    projectsByCriteria(teamId: NintendoTeamId, franchiseId: NintendoGuid, status: ProjectStatus): [Project]
+}
