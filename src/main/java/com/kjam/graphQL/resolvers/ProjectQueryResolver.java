@@ -44,7 +44,6 @@ public class ProjectQueryResolver implements GraphQLQueryResolver {
 
     @Async("ResolverThreadPool")
     public CompletableFuture<List<Project>> projectsByCriteria(String teamId, String franchiseId, ProjectStatus status) {
-	System.out.println(String.format("NINTENDO teamId %s franchiseId %s ", teamId, franchiseId));
         if(allBlank(teamId, franchiseId) && Objects.isNull(status)) return null;
         var projectExample = Example.of(Project.builder().teamId(teamId).franchiseId(franchiseId).status(status).build());
         return repository.findAll(projectExample).collectList().toFuture();
