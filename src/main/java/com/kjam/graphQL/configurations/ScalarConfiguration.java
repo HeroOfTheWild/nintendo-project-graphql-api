@@ -103,7 +103,7 @@ public class ScalarConfiguration {
         if(input.matches(regex)) {
             return input;
         } else {
-            throw new CoercingParseLiteralException("INVALID NINTENDO GUID");
+            throw new CoercingParseLiteralException("INVALID ID");
         }
     }
 
