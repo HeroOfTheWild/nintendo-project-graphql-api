@@ -28,27 +28,27 @@ VALUES ('n1nt3nd0-11a8-4d5b-beda-pr0j3ct20f64', 'nintendo01', 'n1nt3nd0-11a8-4d5
 
 INSERT INTO NINTENDO.PROJECT 
 (PROJECT_ID, TEAM_ID, FRANCHISE_ID, PROJECT_NM, PROJECT_STATUS, MODIFIED)
-VALUES ('n1nt3nd0-11a8-4d5b-beda-pr0j3ct20f71', 'nintendo01', 'n1nt3nd0-11a8-4d5b-beda-franch1s3002', 'Breath of the Wild', 'COMPLETED', '1985-07-05 23:54:00');
+VALUES ('n1nt3nd0-11a8-4d5b-beda-pr0j3ct20f71', 'nintendo02', 'n1nt3nd0-11a8-4d5b-beda-franch1s3002', 'Breath of the Wild', 'COMPLETED', '1985-07-05 23:54:00');
 
 INSERT INTO NINTENDO.PROJECT 
 (PROJECT_ID, TEAM_ID, FRANCHISE_ID, PROJECT_NM, PROJECT_STATUS, MODIFIED)
-VALUES ('n1nt3nd0-11a8-4d5b-beda-pr0j3ct20f72', 'nintendo01', 'n1nt3nd0-11a8-4d5b-beda-franch1s3002', 'Breath of the Wild 2', 'INPROGRESS', '1985-07-05 23:54:00');
+VALUES ('n1nt3nd0-11a8-4d5b-beda-pr0j3ct20f72', 'nintendo02', 'n1nt3nd0-11a8-4d5b-beda-franch1s3002', 'Breath of the Wild 2', 'INPROGRESS', '1985-07-05 23:54:00');
 
 INSERT INTO NINTENDO.PROJECT 
 (PROJECT_ID, TEAM_ID, FRANCHISE_ID, PROJECT_NM, PROJECT_STATUS, MODIFIED)
-VALUES ('n1nt3nd0-11a8-4d5b-beda-pr0j3ct20f73', 'nintendo01', 'n1nt3nd0-11a8-4d5b-beda-franch1s3002', 'Wind Waker', 'RELEASED', '1985-07-05 23:54:00');
+VALUES ('n1nt3nd0-11a8-4d5b-beda-pr0j3ct20f73', 'nintendo02', 'n1nt3nd0-11a8-4d5b-beda-franch1s3002', 'Wind Waker', 'RELEASED', '1985-07-05 23:54:00');
 
 INSERT INTO NINTENDO.PROJECT 
 (PROJECT_ID, TEAM_ID, FRANCHISE_ID, PROJECT_NM, PROJECT_STATUS, MODIFIED)
-VALUES ('n1nt3nd0-11a8-4d5b-beda-pr0j3ct20f74', 'nintendo02', 'n1nt3nd0-11a8-4d5b-beda-franch1s3002', 'Oracle of Ages', 'RELEASED', '1985-07-05 23:54:00');
+VALUES ('n1nt3nd0-11a8-4d5b-beda-pr0j3ct20f74', 'nintendo04', 'n1nt3nd0-11a8-4d5b-beda-franch1s3002', 'Oracle of Ages', 'RELEASED', '1985-07-05 23:54:00');
 
 INSERT INTO NINTENDO.PROJECT 
 (PROJECT_ID, TEAM_ID, FRANCHISE_ID, PROJECT_NM, PROJECT_STATUS, MODIFIED)
-VALUES ('n1nt3nd0-11a8-4d5b-beda-pr0j3ct20f75', 'nintendo02', 'n1nt3nd0-11a8-4d5b-beda-franch1s3002', 'Oracle of Seasons', 'RELEASED', '1985-07-05 23:54:00');
+VALUES ('n1nt3nd0-11a8-4d5b-beda-pr0j3ct20f75', 'nintendo04', 'n1nt3nd0-11a8-4d5b-beda-franch1s3002', 'Oracle of Seasons', 'RELEASED', '1985-07-05 23:54:00');
 
 INSERT INTO NINTENDO.PROJECT 
 (PROJECT_ID, TEAM_ID, FRANCHISE_ID, PROJECT_NM, PROJECT_STATUS, MODIFIED)
-VALUES ('n1nt3nd0-11a8-4d5b-beda-pr0j3ct20f76', 'nintendo02', 'n1nt3nd0-11a8-4d5b-beda-franch1s3002', 'Mystical Seed of Courage', 'CANCELLED', '1985-07-05 23:54:00');
+VALUES ('n1nt3nd0-11a8-4d5b-beda-pr0j3ct20f76', 'nintendo04', 'n1nt3nd0-11a8-4d5b-beda-franch1s3002', 'Mystical Seed of Courage', 'CANCELLED', '1985-07-05 23:54:00');
 
 INSERT INTO NINTENDO.PROJECT 
 (PROJECT_ID, TEAM_ID, FRANCHISE_ID, PROJECT_NM, PROJECT_STATUS, MODIFIED)
